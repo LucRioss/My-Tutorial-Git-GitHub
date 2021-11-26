@@ -1,6 +1,6 @@
-Git e GitHub
+#### Git e GitHub
 
-● git init para inicializar o repositório.
+'git init' para inicializar o repositório.
 
 ● git add para enviar os arquivos para área de staging (uma área de espera para ser upado para o repositório)
 

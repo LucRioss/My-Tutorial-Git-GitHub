@@ -1,8 +1,8 @@
 Git e GitHub
 
-●	git init para inicializar o repositório.
+● git init para inicializar o repositório.
 
-●	git add para enviar os arquivos para área de staging (uma área de espera para ser upado para o repositório)
+● git add para enviar os arquivos para área de staging (uma área de espera para ser upado para o repositório)
 
 ●	git commit -m “nome do commit” o commit para que vem do SQL tem a mesma função tornar permanente a alteração, mais para o Git e atualizar o que está na área de staging esse commit ficar marcado a alteração do que foi realizada
 

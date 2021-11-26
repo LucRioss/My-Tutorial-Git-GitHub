@@ -1,8 +1,8 @@
 # My-Tutorial-Git-GitHub
 Tutorial  básico de Git e GitHub feito para realizado para ser claro e objetivo 
 
-Git e GitHub
-'git init' para inicializar o repositório.
+## Git e GitHub
+`git init` para inicializar o repositório.
 
 ● git add para enviar os arquivos para área de staging (uma área de espera para ser upado para o repositório)
 

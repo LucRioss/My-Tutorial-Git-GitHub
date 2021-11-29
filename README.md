@@ -5,8 +5,10 @@
 `git init` Serve para inicializar o repositório Git (lembrado que tem que estar dentro do diretório dos arquivos desejados, para esse facilitar caminho é só clicar com o botão direito do mouse dentro do diretório desejado e clicar com o botão esquerdo na janela seguinte em ` “Git Bash Here” `. 
 
 <image1>
-<image2>
- 
+<img src="https://imgur.com/W4I5bYL.png">
+
+ <image2>
+ <img src="https://i.imgur.com/nDmhyHY.png">
 
 `git add nomedoarquivo.formato` Enviar os arquivos para área de staging do Git
 
@@ -15,32 +17,41 @@
   Agora o proximo passo e dentro do GitHub, após criar a conta ou fazer o login clicar no ícone do seu perfil e ir em seus repositórios como na imagem a seguir.
 
 <image3>
-    
- Após isso, uma janela vai ser carregada, e para criar um repositório é só clicar no botão new que vai estar em destaque na cor verde.
+<img src="https://i.imgur.com/RE82hRI.png">
+ 
+Após isso, uma janela vai ser carregada, e para criar um repositório é só clicar no botão new que vai estar em destaque na cor verde.
 
 <image4>
-
+<img src="https://i.imgur.com/3Cov5U3.png">
+ 
 Depois disso outra janela vai ser carrega onde é possível colocar o nome do repositório, descrição e se vai público ou privado, depois e só clicar no botão ver para criar, as caixas de opções contém o `readme` leia me tem a função de ser a porta de entrada onde pode conter a descrição do código, explicação das funções, etc.	Nesse caso está servindo para esse tutorial. 	O `.gitgnore` serve para dizer ao Git quais arquivos ignorar já `Choose a license` ele é o contrato de licença para o repositório do GitHub, ele diz aos outros usuários o que podem ou não fazer com os arquivos do repositório, para mais informações e só clicar em `Learn more`
   
-<image5>  
+<image5>
+<img src="https://i.imgur.com/P1l1FUo.png">
   
-  Após criar o diretório na próxima tela um link irá ser gerado, no caso podemos ver que é um link padrão onde ele segue o formato:
+ Após criar o diretório na próxima tela um link irá ser gerado, no caso podemos ver que é um link padrão onde ele segue o formato:
   
 `https://github.com/NOMEDOSEUPERFIL/NOMEDOREPOSITORIO.git`<br>
   
 E abaixo do link podemos ver abaixo a lista de comandos necessário enviar os arquivos para o diretório do GitHub agora com o link em mão voltamos ao bash do git para prosseguir.
 
-<image6>  
+<image6>
+<img src="https://i.imgur.com/bjDt2xC.png">
 
 `git remote add origin link-do-repositório`  Esse comando tem a função de fazer a conexão como o repositório através do link a conexão está feita (origin e nome utilizado para referenciar o repositório que está sendo enviado)
 
 `git push -u origin main` Mesmo efetuado o commit os arquivos não são colocados direteamente no repositório assom sendo necessário empurrar(Caso os arquivos não apareça de imediato atualizar a pagina).
 
 `git add .` A função do Git add + o ponto é de enviar todas as alterações feita para a área de staging, lembrando que após utilizar esse comando realizar o commit e push (`git commit -m "alteração"`  `git push origin main` sem o -u isso poque como pode se observar pela própria tabela que se encontra no livro Pro Git disponibilizado na plataforma que ele significa update -página 23).
+ 
 <image7>
+<img src="https://i.imgur.com/qIdShhj.png">
+ 
 Para acessar fazer download do Livro e tanto do propriamente dito Git e acessar a página oficial do Git.
+ 
 <image8>
-  
+<img src="https://i.imgur.com/3MyIt1i.png">  
+ 
 ## Criação de Branch
 
 #### Branch Ramificação, em controle de versão e gerenciamento de configuração de software, é a duplicação de um objeto sob controle de versão. Cada objeto pode, a partir daí, ser modificado separadamente e em paralelo para que os objetos se tornem diferentes.(Wikipedia)
@@ -61,5 +72,5 @@ Para acessar fazer download do Livro e tanto do propriamente dito Git e acessar 
   
 Eu escolhi esse tutorial para ser o meu primeiro repositório para deixar como documento explicado em minhas palavras para mim e para quem achar útil, caso esteja iniciando considere fazer o seu próprio tutorial por mais simples que seja isso ajudar a fixar os comandos e como a plataforma funciona isso tem me ajudado a entender e criar dúvidas de como realizar determinados procedimentos e buscar sanar eles. 	Bom espero que tenha sido de grande aproveito esse tutorial, agradeço e até mais  =)
 
-<img src="linkdaimagem">
+
 

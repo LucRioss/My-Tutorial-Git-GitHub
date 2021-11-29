@@ -5,10 +5,11 @@
 `git init` Serve para inicializar o repositório Git (lembrado que tem que estar dentro do diretório dos arquivos desejados, para esse facilitar caminho é só clicar com o botão direito do mouse dentro do diretório desejado e clicar com o botão esquerdo na janela seguinte em ` “Git Bash Here” `. 
 
 <image1>
-<img src="https://imgur.com/W4I5bYL.png">
-
- <image2>
- <img src="https://i.imgur.com/nDmhyHY.png">
+<img src="https://imgur.com/W4I5bYL.png" height="450" width="600">
+Bash do Git:
+<image2>
+<img src="https://i.imgur.com/nDmhyHY.png" height="400" width="500">
+ 
 
 `git add nomedoarquivo.formato` Enviar os arquivos para área de staging do Git
 
@@ -27,7 +28,7 @@ Após isso, uma janela vai ser carregada, e para criar um repositório é só cl
 Depois disso outra janela vai ser carrega onde é possível colocar o nome do repositório, descrição e se vai público ou privado, depois e só clicar no botão ver para criar, as caixas de opções contém o `readme` leia me tem a função de ser a porta de entrada onde pode conter a descrição do código, explicação das funções, etc.	Nesse caso está servindo para esse tutorial. 	O `.gitgnore` serve para dizer ao Git quais arquivos ignorar já `Choose a license` ele é o contrato de licença para o repositório do GitHub, ele diz aos outros usuários o que podem ou não fazer com os arquivos do repositório, para mais informações e só clicar em `Learn more`
   
 <image5>
-<img src="https://i.imgur.com/P1l1FUo.png">
+<img src="https://i.imgur.com/P1l1FUo.png" height="600" width="600">
   
  Após criar o diretório na próxima tela um link irá ser gerado, no caso podemos ver que é um link padrão onde ele segue o formato:
   
@@ -36,7 +37,7 @@ Depois disso outra janela vai ser carrega onde é possível colocar o nome do re
 E abaixo do link podemos ver abaixo a lista de comandos necessário enviar os arquivos para o diretório do GitHub agora com o link em mão voltamos ao bash do git para prosseguir.
 
 <image6>
-<img src="https://i.imgur.com/bjDt2xC.png">
+<img src="https://i.imgur.com/bjDt2xC.png" >
 
 `git remote add origin link-do-repositório`  Esse comando tem a função de fazer a conexão como o repositório através do link a conexão está feita (origin e nome utilizado para referenciar o repositório que está sendo enviado)
 
@@ -45,12 +46,12 @@ E abaixo do link podemos ver abaixo a lista de comandos necessário enviar os ar
 `git add .` A função do Git add + o ponto é de enviar todas as alterações feita para a área de staging, lembrando que após utilizar esse comando realizar o commit e push (`git commit -m "alteração"`  `git push origin main` sem o -u isso poque como pode se observar pela própria tabela que se encontra no livro Pro Git disponibilizado na plataforma que ele significa update -página 23).
  
 <image7>
-<img src="https://i.imgur.com/qIdShhj.png">
+<img src="https://i.imgur.com/qIdShhj.png" height="400" width="500">
  
 Para acessar fazer download do Livro e tanto do propriamente dito Git e acessar a página oficial do Git.
  
 <image8>
-<img src="https://i.imgur.com/3MyIt1i.png">  
+<img src="https://i.imgur.com/3MyIt1i.png" height="350" width="900">  
  
 ## Criação de Branch
 

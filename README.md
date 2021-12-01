@@ -73,14 +73,16 @@ Para acessar fazer download do Livro e tanto do propriamente dito Git, acessar a
   
 Eu escolhi esse tutorial para ser o meu primeiro repositório para deixar como documento explicado em minhas palavras para mim e para quem achar útil, caso esteja iniciando considere fazer o seu próprio tutorial por mais simples que seja isso ajudar a fixar os comandos e como a plataforma funciona, isso tem me ajudado a entender e criar dúvidas de como realizar determinados procedimentos e buscar sanar eles. 	Bom espero que tenha sido de grande aproveito esse tutorial, agradeço e até mais  =)
 
- ## --EXTRA-- 
+ # --EXTRA-- 
  
-`git checkout <sua-branch> && git pull origin <sua-branch>`
+* `git checkout <sua-branch> && git pull origin <sua-branch>`
  
-`git remote rm origin` Elemina a conexão com o link atual do repositório
+* `git remote rm origin` Elimina a conexão com o link atual do repositório.
  
-`git remote set-url origin link-novo` Troca o link do Repositório
+* `git remote set-url origin link-novo` Troca o link do repositório.
  
-`git push origin <sua-branch> --force` USAR COM CUIDADO ELE FORÇA A ATUALIZAÇÃO COM O REPOSITORIO ONLINE PODE APAGAR OS ARQUIVOS SE ELES NÃO ESTIVEREM ATUALIZADOS
+* `git push origin <sua-branch> --force` USAR COM CUIDADO ELE FORÇA O PUSH COM O REPOSITORIO ONLINE PODE APAGAR OS ARQUIVOS SE ELES NÃO ESTIVEREM ATUALIZADOS.
 
-`git config --global https.proxy`
+* `git config --global https.proxy`
+
+* `git pull <link-do-Repositório> <branch>` caso o `git pull` não atualize o repositório local.

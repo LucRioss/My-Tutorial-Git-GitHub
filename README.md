@@ -73,7 +73,7 @@ Para acessar fazer download do Livro e tanto do propriamente dito Git, acessar a
   
 Eu escolhi esse tutorial para ser o meu primeiro repositório para deixar como documento explicado em minhas palavras para mim e para quem achar útil, caso esteja iniciando considere fazer o seu próprio tutorial por mais simples que seja isso ajudar a fixar os comandos e como a plataforma funciona, isso tem me ajudado a entender e criar dúvidas de como realizar determinados procedimentos e buscar sanar eles. 	Bom espero que tenha sido de grande aproveito esse tutorial, agradeço e até mais  =)
 
- ### Extra 
+ ## --EXTRA-- 
  
 `git checkout <sua-branch> && git pull origin <sua-branch>`
  

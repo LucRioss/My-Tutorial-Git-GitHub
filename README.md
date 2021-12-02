@@ -25,7 +25,7 @@ Após isso, uma janela vai ser carregada, para criar um repositório é só clic
 <image4>
 <img src="https://i.imgur.com/3Cov5U3.png">
  
- Depois disso outra janela vai ser carrega onde é possível colocar o nome do repositório, descrição e a opção se vai público ou privado, depois é só clicar no botão "Create Repository" para criar, as caixas de opções:  o `readme` (leia me) tem a função de ser a porta de entrada onde pode conter a descrição do código, explicação das funções, etc, nesse caso está servindo para esse tutorial. 	<O `.gitgnore` serve para dizer ao Git quais arquivos ignorar> Já `Choose a license` ele é o contrato de licença para o repositório do GitHub, ele diz aos outros usuários o que podem ou não fazer com os arquivos do repositório, para mais informações e só clicar em `Learn more`
+ Depois disso outra janela vai ser carrega onde é possível colocar o nome do repositório, descrição e a opção se vai público ou privado, depois é só clicar no botão "Create Repository" para criar, as caixas de opções:  o `readme` (leia me) tem a função de ser a porta de entrada onde pode conter a descrição do código, explicação das funções, etc, nesse caso está servindo para esse tutorial. 	O `.gitgnore` serve para dizer ao Git quais arquivos ignorar já `Choose a license` ele é o contrato de licença para o repositório do GitHub, ele diz aos outros usuários o que podem ou não fazer com os arquivos do repositório, para mais informações e só clicar em `Learn more`
   
 <image5>
 <img src="https://i.imgur.com/P1l1FUo.png" height="600" width="600">
